@@ -1,5 +1,4 @@
 ext {
     lombokVersion = '1.18.28'
-    hibernateVersion = '6.3.0.Final'
     postgresqlVersion = '42.6.0'
 }
