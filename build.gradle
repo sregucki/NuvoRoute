@@ -32,9 +32,19 @@ dependencies {
     testCompileOnly "org.projectlombok:lombok:${lombokVersion}"
     testAnnotationProcessor "org.projectlombok:lombok:${lombokVersion}"
 
-
+    //// testing
+    // spring-boot-test
     implementation "org.springframework.boot:spring-boot-starter"
     testImplementation "org.springframework.boot:spring-boot-starter-test"
+
+    // junit5
+    testImplementation "org.junit.jupiter:junit-jupiter-api:${junitVersion}"
+
+    // assertj
+    testImplementation "org.assertj:assertj-core:${assertJVersion}"
+
+    // mockito
+    testImplementation "org.mockito:mockito-core:${mockitoVersion}"
 }
 
 tasks.named('test') {
