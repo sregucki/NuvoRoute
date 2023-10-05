@@ -1,4 +1,4 @@
-package com.nuvoroute.vehiclemanager.service;
+package com.nuvoroute.vehicle.service;
 
 import java.util.UUID;
 

@@ -1,7 +1,7 @@
-package com.nuvoroute.vehiclemanager.service;
+package com.nuvoroute.vehicle.service;
 
-import com.nuvoroute.vehiclemanager.model.Vehicle;
-import com.nuvoroute.vehiclemanager.repository.VehicleRepository;
+import com.nuvoroute.vehicle.model.Vehicle;
+import com.nuvoroute.vehicle.repository.VehicleRepository;
 import java.util.UUID;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

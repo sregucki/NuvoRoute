@@ -1,6 +1,6 @@
-package com.nuvoroute.vehiclemanager.repository;
+package com.nuvoroute.vehicle.repository;
 
-import com.nuvoroute.vehiclemanager.model.Vehicle;
+import com.nuvoroute.vehicle.model.Vehicle;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

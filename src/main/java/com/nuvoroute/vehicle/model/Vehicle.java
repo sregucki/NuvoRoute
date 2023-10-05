@@ -1,4 +1,4 @@
-package com.nuvoroute.vehiclemanager.model;
+package com.nuvoroute.vehicle.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
